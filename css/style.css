@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
     font-size: 1.5vh;
@@ -141,6 +141,12 @@ a{
     color: white;
 }
 
+.separator{
+    color: rgb(170, 169, 169);
+    width: 5vw;
+    margin: 40px 0px 40px 0px
+}
+
 .paddingbottom30{
     padding-bottom: 30px;
 }
@@ -177,4 +183,5 @@ a{
     font-style: italic;
     color: gray;
 }
+
 
