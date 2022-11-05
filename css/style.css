@@ -17,9 +17,26 @@ a{
     font-size: 1.5vh;
 }
 
+.container-main{
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+    font-size: 1.5vh;
+}
+
 .background-header{
     background-color: rgb(157, 204, 255);
-    
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.row-border{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row-header{
@@ -48,6 +65,24 @@ a{
 .col-large{
     width: 70%;
     padding-top: 30px;
+}
+
+.col-border{
+    border: 1px solid gray;
+    display: flex;
+    width: 30%;
+    border-collapse: collapse;
+    justify-content: center;
+    padding: 10px;
+}
+
+.col-border2{
+    border: 1px solid gray;
+    display: flex;
+    width: 30%;
+    border-collapse: collapse;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .content-header{
@@ -91,15 +126,15 @@ a{
 }
 
 .invia{
-    background-color: blue;
+    background-color: rgb(94, 94, 252);
     color: white;
     padding: 10px;
     display: inline-block;
     font-size: 1.5vh;
 }
 
-#free-trial{
-    background-color: rgb(44, 44, 255);
+.free-trial{
+    background-color: rgb(63, 107, 253);
     padding: 7px;
     margin: 30px 0 30px 0;
     max-width: fit-content;
@@ -114,7 +149,32 @@ a{
     padding-bottom: 20px;
 }
 
+.paddingbottom10{
+    padding-bottom: 10px;
+}
+
+.paddingexceptleft20{
+    padding: 20px 20px 20px 0px;
+}
+
+.paddingright2{
+    padding-right: 2px;
+}
+
+.padding{
+    padding: 0.5vw 2vw 0.5vw 2vw;
+}
+
 .size40{
     font-size: 40px;
+}
+
+.colorblue{
+    color: rgb(55, 55, 255);
+}
+
+.italic{
+    font-style: italic;
+    color: gray;
 }
 
