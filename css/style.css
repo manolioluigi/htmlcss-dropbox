@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
     text-decoration: none;
     color: black;
+    font-size: 1.5vh;
 }
 
 .container-header{
-    width: 65%;
+    width: 65vw;
     margin: auto;
+    font-size: 1.5vh;
 }
 
 .background-header{
-    background-color: rgb(143, 197, 255);
+    background-color: rgb(157, 204, 255);
     
 }
 
@@ -76,11 +79,12 @@ a{
 }
 
 .content-header2 h1{
-    font-size: 70px;
+    font-size: 7vh;
+    padding-top: 5vh;
 }
 
 .content-header4 img{
-    max-width: 65%;
+    max-height: 40vh;
     position: absolute;
     left: 100;
     top: 20;
@@ -91,15 +95,26 @@ a{
     color: white;
     padding: 10px;
     display: inline-block;
+    font-size: 1.5vh;
 }
 
 #free-trial{
-    background-color: blue;
+    background-color: rgb(44, 44, 255);
     padding: 7px;
-    margin: 10px 0 20px 0;
+    margin: 30px 0 30px 0;
     max-width: fit-content;
+    color: white;
 }
 
-#arrow{
-    font-size: 90px;
+.paddingbottom30{
+    padding-bottom: 30px;
 }
+
+.paddingbottom20{
+    padding-bottom: 20px;
+}
+
+.size40{
+    font-size: 40px;
+}
+
