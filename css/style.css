@@ -109,13 +109,14 @@ header a{
     width: 36vw;
     display: flex;
     flex-direction: column;
-    padding: 1vw;
+    padding: 3vw;
 }
 
 .col16{
     width: 16vw;
     display: flex;
     flex-direction: column;
+    
 }
 
 .col-border{
@@ -187,6 +188,8 @@ header a{
 
 .col16 img{
     max-width: 60%;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .invia{
@@ -217,6 +220,16 @@ header a{
 
 .col2 img{
     max-width: 20vw;
+}
+
+.col36 img{
+    width: 14vw;
+    margin-bottom: 10vh;
+}
+
+.col36 p{
+    font-size: 10px;
+    margin-bottom: 2vh;
 }
 
 .separator{
