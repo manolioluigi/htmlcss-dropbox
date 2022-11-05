@@ -74,6 +74,7 @@ header a{
 .col2{
     display: flex;
     flex-direction: column;
+    font-size: 12px;
 }
 
 .col-small{
@@ -194,7 +195,11 @@ header a{
 }
 
 #partner-img{
-    max-width: 400px;
+    max-width: 30vw;
+}
+
+.col2 img{
+    max-width: 20vw;
 }
 
 .separator{
@@ -219,6 +224,14 @@ header a{
     padding: 20px 20px 20px 0px;
 }
 
+.paddingexceptright20{
+    padding: 20px 0px 20px 20px;
+}
+
+.paddingtopbottom20{
+    padding: 20px 0px 20px 0px;
+}
+
 .paddingright2{
     padding-right: 2px;
 }
@@ -235,6 +248,10 @@ header a{
     margin-left: 1vw;
 }
 
+.margintopbottom10{
+    margin: 10vh 0vh 10vh 0vh;
+}
+
 .size40{
     font-size: 40px;
 }
@@ -248,5 +265,8 @@ header a{
     color: gray;
 }
 
+.width50{
+    width: 50%;
+}
 
 
