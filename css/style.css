@@ -105,6 +105,19 @@ header a{
     justify-content: center;
 }
 
+.col36{
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.col16{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .col-border{
     border: 1px solid rgba(128, 128, 128, 0.5);
     display: flex;
@@ -170,6 +183,10 @@ header a{
     position: absolute;
     left: 100;
     top: 20;
+}
+
+.col16 img{
+    max-width: 60%;
 }
 
 .invia{
@@ -269,4 +286,78 @@ header a{
     width: 50%;
 }
 
+/*cubi*/
 
+#cube1{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(137, 245, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgba(255, 255, 255, 0.507);
+    box-sizing: border-box;
+}
+
+#cube2{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(0, 119, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube3{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(87, 0, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube4{
+    height: 16vw;
+    width: 16vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube5{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(133, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube6{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube7{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(151, 222, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cube8{
+    height: 16vw;
+    width: 16vw;
+    background-color: rgb(166, 248, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
