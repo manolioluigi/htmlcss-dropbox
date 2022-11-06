@@ -16,6 +16,8 @@ footer{
     color: white;
 }
 
+/*container*/
+
 .container-header{
     width: 65vw;
     margin: auto;
@@ -45,7 +47,10 @@ footer{
 
 .background-header{
     background-color: rgb(157, 204, 255);
+    height: 70vh;
 }
+
+/*row*/
 
 .row{
     width: 100%;
@@ -101,6 +106,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/*col*/
 
 .col{
     display: flex;
@@ -195,6 +202,8 @@ footer{
     justify-content: center;
 }
 
+/*content*/
+
 .content-header{
     padding: 20px;
     display: flex;
@@ -228,12 +237,18 @@ footer{
     padding-top: 5vh;
 }
 
+.content-header3 p{
+    font-size: 16px;
+}
+
 .content-header4 img{
-    max-height: 40vh;
+    max-height: 50vh;
     position: absolute;
     left: 100;
     top: 20;
 }
+
+/*random stuff*/
 
 .col16 img{
     max-width: 60%;
@@ -298,6 +313,8 @@ footer{
     margin-bottom: 2vh;
 }
 
+/*utility*/
+
 .separator{
     color: rgb(170, 169, 169);
     width: 5vw;
@@ -352,6 +369,10 @@ footer{
 
 .marginbottom10{
     margin-bottom: 10vh;
+}
+
+.margintop15{
+    margin-top: 15vh;
 }
 
 .marginbottom5{
